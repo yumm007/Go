@@ -1,0 +1,10 @@
+go 和 c 语言编译后的大小区别
+
+go build hello-world.go 	1.3M
+gccgo hello-world.go 		26K
+
+gcc hello-world.c --static	864k
+gcc hello-world.c		8.6k
+
+差距太大了!
+
